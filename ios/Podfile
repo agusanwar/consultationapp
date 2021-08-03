@@ -12,6 +12,10 @@ target 'consultationapp' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-async-storage/async-storage'
+
   target 'consultationappTests' do
     inherit! :complete
     # Pods for testing
